@@ -2,7 +2,7 @@
 
 import LinkedList from "@/model/LinkedList"
 
-const beanFilenames = ["/images/brune-bønner.jpg", "/images/coffee-beans.jpg", "/images/hvidebønner.jpg"];
+const beanFilenames = ["/brune-bønner.jpg", "/coffee-beans.jpg", "/hvidebønner.jpg"];
 
 export const randomTargetBeans = (size) => {
     const targetBeans = new LinkedList;
